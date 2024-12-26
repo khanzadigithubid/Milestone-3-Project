@@ -23,7 +23,7 @@ const Hero = () => {
                         <h1 className="text-[35px] font-extrabold tracking-tight sm:text-5xl">
                             Welcome to BM-Shop
                         </h1>
-                        <p className="mt-6 text-xl max-w-3xl text-black text-center">
+                        <p className="mt-6 text-xl max-w-3xl text-black py-8">
                         Discover our exclusive range of products designed to elevate your shopping experience. Explore now for the best deals and seamless convenience!  Whether you are looking for trendy fashion, cutting-edge electronics, or home essentials, we have got you covered with unbeatable prices. 
                         Shop with confidence, knowing that each item is carefully selected to meet the highest standards of quality. Enjoy easy navigation, fast checkout, and prompt delivery making your shopping journey a breeze.Don not miss out on the hottest products and exclusive offers! </p>                        
                         <div className="mt-8">
