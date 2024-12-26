@@ -5,6 +5,7 @@ const Hero = () => {
         <section className="relative bg-green-600 text-white p-2">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative py-16 md:py-24">
+                    {/* Decorative SVG */}
                     <div className="absolute inset-0 overflow-hidden">
                         <svg
                             className="absolute top-0 left-0 w-full h-full"
@@ -19,13 +20,16 @@ const Hero = () => {
                             />
                         </svg>
                     </div>
+                    
+                    {/* Content */}
                     <div className="relative text-center">
                         <h1 className="text-[35px] font-extrabold tracking-tight sm:text-5xl">
                             Welcome to BM-Shop
                         </h1>
-                        <p className="mt-6 text-xl max-w-3xl text-black px-8">
-                        Discover our exclusive range of products designed to elevate your shopping experience. Explore now for the best deals and seamless convenience!  Whether you are looking for trendy fashion, cutting-edge electronics, or home essentials, we have got you covered with unbeatable prices. 
-                        Shop with confidence, knowing that each item is carefully selected to meet the highest standards of quality. Enjoy easy navigation, fast checkout, and prompt delivery making your shopping journey a breeze.Don not miss out on the hottest products and exclusive offers! </p>                        
+                        <p className="mt-6 text-xl max-w-3xl mx-auto text-black">
+                            Discover our exclusive range of products designed to elevate your shopping experience. Explore now for the best deals and seamless convenience! Whether you are looking for trendy fashion, cutting-edge electronics, or home essentials, we have got you covered with unbeatable prices. 
+                            Shop with confidence, knowing that each item is carefully selected to meet the highest standards of quality. Enjoy easy navigation, fast checkout, and prompt delivery, making your shopping journey a breeze. Don’t miss out on the hottest products and exclusive offers!
+                        </p>
                         <div className="mt-8">
                             <Link
                                 href="/products"
