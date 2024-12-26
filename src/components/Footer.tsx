@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold">BM- Shop</h3>
             <p className="mt-4 text-gray-400">
-            Discover unbeatable deals and exclusive products at UF-Store. Shop with confidence, backed by exceptional customer support!
+            Discover unbeatable deals and exclusive products at BM-Shop. Shop with confidence, backed by exceptional customer support!
             </p>
           </div>
 
