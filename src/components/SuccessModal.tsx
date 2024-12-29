@@ -14,7 +14,7 @@ const SuccessModal: React.FC<SuccessModalProps> = ({ isOpen, onClose, message, v
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-gray-300 bg-opacity-50 flex items-center justify-center z-50">
             <div className="bg-green-900 p-6 rounded-lg shadow-lg w-full max-w-md relative">
                 <button
                     onClick={onClose}
