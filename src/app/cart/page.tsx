@@ -66,7 +66,7 @@ const Cart = () => {
     };
 
     return (
-        <div className="min-h-screen bg-green-600 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="min-h-screen bg-green-300 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto">
                 <h1 className="text-4xl font-bold text-white mb-8 md:text-left text-center">Your Shopping Cart</h1>
                 {cart.length === 0 ? (<>
