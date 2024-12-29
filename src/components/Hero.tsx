@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Hero = () => {
     return (
-        <section className="relative bg-gray-200 text-white p-2">
+        <section className="relative bg-green-400 text-white p-2">
             <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="relative py-16 md:py-24">
                     {/* Decorative SVG */}
